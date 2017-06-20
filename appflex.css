@@ -1,0 +1,35 @@
+.app-message{
+	display: flex;
+}
+.app-message-content{
+	flex:1;
+}
+@media only screen and (min-width: 901px)
+{
+	.app-container{
+		display: flex;
+		background-color: lightblue;
+
+	}
+	.app-contacts{
+		flex:33vw;
+		border-right: solid 1px silver;
+	}
+	.app-chats{
+		flex: 67vw;
+	}
+	.app-chat-header{
+		height:3vh;
+		background-color: silver;
+		text-align:center;
+		justify-content: center;
+	}
+	.app-chats .app-avatar{
+		width:3rem;
+		height: 3rem;
+	}
+	.app-message-active{
+		background-color: yellow;
+	}
+
+}
